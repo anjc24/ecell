@@ -1,0 +1,130 @@
+@media(max-width:768px) {
+    div.type-wrap {
+        font-size: 20px;
+    }
+
+    .navbar-expand-md .navbar-nav {
+        margin-left: 0;
+        text-align: center;
+        background-color: #000000;
+
+    }
+
+    .navbar-brand {
+        padding: 10px;
+    }
+    
+.Logoecell img {
+    width: 5rem;
+    height: auto;
+    margin: 0.5rem 0 0.5rem 1rem ;
+}
+    .toggle {
+        display: block;
+    }
+
+    .event i {
+        font-size: 30px;
+        padding: 10px
+    }
+    .event p{
+        font-size: 1rem;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 100%;
+    }
+
+    .single-promo {
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 8rem;
+        width: auto;
+    }
+    .event h2 {
+        font-size: 30px;
+      }
+    .speakers h2 {
+        font-size: 30px;
+        margin-bottom: 0.5rem;
+        margin-top: 20px;
+      }
+
+      .card-deck{
+        margin:0 ;
+      }
+      .investors h2 {
+        font-size: 30px;
+        margin-bottom: 0.5rem;
+        margin-top: 20px;
+      }
+      .events-box{
+        max-width: 45%;
+    
+      }
+      
+.events-icon{
+  width: 5rem;
+  height: 5rem;
+}
+
+.events-icon i{ 
+  line-height: 5rem;
+  font-size: 2.2rem;
+}
+
+.events-titlem{
+  font-size: 30px;
+}
+.events-title{
+  font-size: 15px;
+}     .aecontent{
+  padding-top:0.4rem;
+}
+      .aboutevents{
+          font-size: 10px;
+      }
+      .aboutevents h2 {
+        margin-top: 3.5rem !important;
+        font-size: 30px;
+      }
+      .aboutevents h3 {
+        font-size: 20px;
+      }
+    .footer img {
+        width: 80%;
+    }
+
+    .footer i {
+        padding: 12px;
+    }
+    .subtitle{
+        font-size: 1rem;
+    }
+    .animated-btn{
+        font-size: 0.7rem;
+        padding: 1rem;
+    }
+    .copyright {
+        font-size: 0.7rem;
+      }
+      .headae{
+        font-size: 30px !important;
+      }
+      #aboute h2{
+        font-size: 10px;
+        color: #000000;
+        margin-bottom: 2px;
+        padding-top: 3rem;
+      }
+      #aboute p{
+        font-size: 7px;
+      }
+      .img-wrap img{
+          width: 100%;
+      }
+      .speakersdiv .cards{
+        height: 150px;
+      }
+}
+
