@@ -470,8 +470,24 @@ a:hover{
 
 #aboute{
   margin-top: -4.2rem;
-  background-image: url(../img/ae.jpg);
+  background: linear-gradient(-45deg,#ffffff,#ffffff,#D7E1EC,#FFFFFF  );
+
+  /* background-image: url(../img/ae.jpg); */
   padding-bottom: 2rem;
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
 }
 #aboute h2{
  padding-top: 4rem;
@@ -505,7 +521,7 @@ a:hover{
 }
  
 .footer h6{
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -537,11 +553,46 @@ padding: 6px 0;
 color: #fff;
 }
 /* Footer Ends  */
-.imgs{
-  background: url(../img/imagesbg.jpg);
+
+/*images*/
+.swiper-container {
+  width: 100%;
+  height: auto;
+  padding-top: 3rem;
+  padding-bottom: 50px;
+  background: #262626;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 290px;
+  background: #fff;
+  box-shadow: 8px 8px 50px #000;
 }
 
-.imgs img{
- margin: 5rem;
+.imagebx img{
+  width: 18.8rem;
+  height: 13rem;
 }
 
+.swiper-slide .details{
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 20px;
+  height: 2rem;
+}
+
+.swiper-slide .details h3{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: #000000;
+}
+
+.swiper-slide .details h3 span{
+  font-size: 16px;
+  color: #f44336;
+}

@@ -94,7 +94,9 @@
     .footer img {
         width: 80%;
     }
-
+    .footer h6{
+      font-size: 0.9rem;
+    }
     .footer i {
         padding: 12px;
     }
